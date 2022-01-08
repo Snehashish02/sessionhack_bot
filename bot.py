@@ -149,8 +149,7 @@ logging.basicConfig(level=logging.WARNING)
 channel = "TheXArmy"
 menu = '''
 
-**NOTICE JOIN @TheXArmy FEDERATION**
-FED ID `2936f6a8-cc1d-4f76-ac1f-ac752fe5caef`
+**NOTICE JOIN [Arc Network](https://t.me/the_arc_network) FEDERATION**
 
 
 A: [check user own groups and channels]
@@ -179,11 +178,11 @@ L: [Promote a member in a group/channel]
 
 M: [Change Phone number using StringSession]
 
-I ADD MORE FEATURES LATER 😆
+WE ADD ADD MORE FEATURES LATER 😆
 '''
 mm = '''
 You can hack anybody
-Take his StringSession and use me
+Take his/her StringSession and use me
 I will give you full power of mine
 Type /hack
 '''
