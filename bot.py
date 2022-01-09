@@ -230,7 +230,6 @@ async def start(event):
         system("rm -rf session.txt")
       else:
         await event.reply(i + "\n\ɴ ᴋᴀᴛ ᴅɪʏᴀ ʙɪᴄʜᴀʀᴇ ᴋᴀ 😂 \n ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ [ᴀʀᴄ ʙᴏᴛ](https://t.me/the_arc_network)")
-        file.close()")
     elif res.text == "B":
       await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
